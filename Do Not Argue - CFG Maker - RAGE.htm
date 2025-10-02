@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Rage (stylized as RAGE) is a first-person shooter video game developed by id Software, released in October 2011. It was first shown as a tech demo on June 11, 2007, at the Apple Worldwide Developers Conference, and was officially announced on August 2, 2007 at QuakeCon. Rage uses id Software's id Tech 5 game engine, and was the final game released by the company under the supervision of founder John Carmack.">
+    <meta name="author" content="DNA-Killersneak">
+	<link rel="stylesheet" href="Do Not Argue - CFG Maker - RAGE_files/font-awesome.min.css"><link rel="stylesheet" href="Do Not Argue - CFG Maker - RAGE_files/bootstrap.min.css"><link rel="icon" href="https://www.donotargue.com/cfgmakers/favicon.ico">
+    <title>Do Not Argue - CFG Maker - RAGE</title>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="Do Not Argue - CFG Maker - RAGE_files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="Do Not Argue - CFG Maker - RAGE_files/jumbotron.css" rel="stylesheet">
+	<!-- Font Awesome icons -->
+	<link rel="stylesheet" href="Do Not Argue - CFG Maker - RAGE_files/font-awesome.min.css">
+	<meta property="og:image" content="https://www.donotargue.com/cfgmakers/cfgm-rage.jpg">
+	<meta property="og:image:secure_url" content="https://www.donotargue.com/cfgmakers/cfgm-rage.jpg">
+	<meta property="og:image:alt" content="Do Not Argue - CFG Maker - RAGE">
+	<meta property="og:title" content="Do Not Argue - CFG Maker - RAGE">
+	<meta property="og:url" content="https://www.donotargue.com/cfgmakers/rage.html">
+	<meta property="og:description" content="Rage (stylized as RAGE) is a first-person shooter video game developed by id Software, released in October 2011. It was first shown as a tech demo on June 11, 2007, at the Apple Worldwide Developers Conference, and was officially announced on August 2, 2007 at QuakeCon. Rage uses id Software's id Tech 5 game engine, and was the final game released by the company under the supervision of founder John Carmack.">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@Do_Not_Argue">
+	<meta name="twitter:creator" content="@Do_Not_Argue">
+	<meta name="twitter:title" content="Do Not Argue - CFG Maker - RAGE">
+	<meta name="twitter:description" content="Rage (stylized as RAGE) is a first-person shooter video game developed by id Software, released in October 2011. It was first shown as a tech demo on June 11, 2007, at the Apple Worldwide Developers Conference, and was officially announced on August 2, 2007 at QuakeCon. Rage uses id Software's id Tech 5 game engine, and was the final game released by the company under the supervision of founder John Carmack.">
+	<meta name="twitter:image" content="https://www.donotargue.com/cfgmakers/cfgm-rage.jpg">
+	<meta property="fb:app_id" content="1487307188264075">
+	<meta property="fb:admins" content="1278026830">
+
+<!-- CFG MAKER STYLE -->
+<style>
+/* https://www.webnots.com/how-to-create-full-width-parallax-page-with-bootstrap-4-jumbotron/ */
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+/* Paragraph for Parallax Section */ 
+.paral p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+ 
+/* Heading for Parallax Section */ 
+.paral h1 {
+color: rgba(255, 255, 255, 1.0);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+/* DNA */
+padding: 0;
+background-color: rgba(0, 0, 0, .75);
+margin: 0;
+}
+
+/* Image for Parallax Section */ 
+.paralsec {
+background-image: url("Do Not Argue - CFG Maker - RAGE_files/cfgm-rage.jpg");
+}
+
+/* Add more images for more sections */
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+
+.bd-callout-info {
+  border-left-color: #5bc0de !important;
+}
+
+.bd-callout-info h4 {
+  color: #5bc0de !important;
+}
+
+.bd-callout-warning {
+  border-left-color: #f0ad4e !important;
+}
+
+.bd-callout-warning h4 {
+  color: #f0ad4e !important;
+}
+
+.bd-callout-danger {
+  border-left-color: #d9534f !important;
+}
+
+.bd-callout-danger h4 {
+  color: #d9534f !important;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.bd-callout-jumbo {
+    border: 1px solid #eee;
+    border-left-width: 1.50rem;
+    border-radius: .25rem;
+}
+
+.trp {
+	background-color: rgba(0, 0, 0, .75) !important;
+}
+
+.bd-callout-small {
+    padding: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40,167,69,.5);
+	color: #fff;
+    border-color: #28a745;
+}
+
+.noresize { resize: none; }
+</style>
+<!-- CFG MAKER STYLE -->
+
+<script>
+		var thetime = new Date().getTime();
+		var head = document.head;
+		var temp = document.createElement('div');
+		temp.innerHTML =
+		'<link rel="preload" as="script" href="https://code.jquery.com/jquery-3.2.1.slim.min.js">'+
+		'<link rel="preload" as="script" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">'+
+		'<link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">'+
+//		'<link rel="preload" as="script" href="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js">'+
+// not now		'<link rel="preload" as="script" href="app-min.js">';
+//		'<link rel="preload" as="script" href="screenreader.js?v=' + thetime + '"' + ">";		
+while (temp.firstChild) {
+    head.appendChild(temp.firstChild);
+}
+</script><link rel="preload" as="script" href="Do Not Argue - CFG Maker - RAGE_files/jquery-3.2.1.slim.min.js"><link rel="preload" as="script" href="Do Not Argue - CFG Maker - RAGE_files/bootstrap.min.js"><link rel="preload" as="script" href="Do Not Argue - CFG Maker - RAGE_files/popper.min.js">
+				
+<script>
+!function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",[
+"https://code.jquery.com/jquery-3.2.1.slim.min.js",
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
+// not now "https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js",
+// not now "app-min.js"
+//"screenreader.js?v="+thetime
+])
+</script><script src="Do Not Argue - CFG Maker - RAGE_files/jquery-3.2.1.slim.min.js"></script><script src="Do Not Argue - CFG Maker - RAGE_files/bootstrap.min.js"></script><script src="Do Not Argue - CFG Maker - RAGE_files/popper.min.js"></script>
+
+<script type="text/javascript">
+function submit() { 
+	document.getElementById("langen").click(); // Simulates button click
+}
+</script><style class="__chameleon_filtered_exfil"></style></head>
+
+
+
+<body onload="submit()">
+<script>
+	var isEN = 0;
+	var isDE = 0;
+</script>
+<canvas id="glcanvas" width="0" height="0" style="display:none;"></canvas>
+
+<script>
+<!-- the current location -->
+var currentlocation = window.location;
+//    document.getElementById("url").innerHTML = currentlocation;
+</script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '268268626524391',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.12'
+    });    
+    FB.AppEvents.logPageView();       
+  };
+</script>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <!--<a class="navbar-brand" href="#">Navbar</a>-->
+	  
+	<a href="https://www.donotargue.com/cfgmakers.html" class="navbar-brand d-flex align-items-center">
+	<!--  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg> -->
+		<img src="Do Not Argue - CFG Maker - RAGE_files/dna-logo-cfg-makers-96px.png" alt="Do Not Argue - CFG Makers - Logo">
+	<!--  <strong>Do Not Argue</strong> -->
+	</a>
+	  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+	  
+		<button class="btn btn-outline-success" onclick="myEN()">EN</button>
+		&nbsp;
+		<button class="btn btn-outline-success" onclick="myDE()">DE/GER - (WIP still translating)</button>
+		&nbsp;
+		<span style="color:#fff;">RAGE - CFG version: 1.4 / 08-04-2018@20:32</span>
+    </nav>
+
+    <main role="main">
+	<div class="jumbotron paral paralsec" id="thegame">
+		<h1 class="display-3"><b>RAGE</b></h1>
+	<p class="lead trp" id="tagline_en">Venture into the wasteland</p>
+	<p class="lead trp" id="tagline_de" style="display:none;">Wage dich ins Ödland</p>
+	<p class="lead">
+		<a class="btn btn-primary btn-lg" href="#howto" role="button" id="learnmore_btn_en">Learn more »</a>
+		<a class="btn btn-primary btn-lg" href="#howto" role="button" id="learnmore_btn_de" style="display:none;">Mehr erfahren »</a>
+	</p>
+	</div>
+
+<!-- CFG Maker 2018 - TOP -->
+</div>
+	  <div class="jumbotron bd-callout-jumbo bd-callout-warning" id="howto">
+        <div class="container">
+          <h1 class="display-3" id="read_this_first_en">Read this first / HOW TO USE</h1>
+		  <h1 class="display-3" id="read_this_first_de" style="display:none;">Lesen Sie dies zuerst / WIE MAN BENUTZT</h1>
+			<p id="how_to_use_text_en">
+copy the generated code and put it into a new text file named "rageconfig.cfg" in these locations: <br> 
+For Single-Player - "*your install location*\rage\base\" <br>
+For Multi-Player - "*your install location*\rage\mp\base\" <br>
+<br>
+<strong>Legend of values</strong> <br>
+DNA very high = best quality <br> 
+DNA high = good quality <br> 
+default = default RAGE settings <br>
+DNA low = below default RAGE settings <br>
+DNA very low = very low settings for low spec systems <br>
+"DNA enhanced" specific on and off settings <br>
+			</p>
+			<p id="how_to_use_text_de" style="display:none">
+Kopieren Sie den generierten Code und fügen Sie ihn in eine neue 
+Textdatei namens "rageconfig.cfg" an folgenden Speicherorten ein: <br> 
+Für Einzelspieler - "*Ihr Installationsort*\rage\base\" <br> 
+Für Multi-Player - "*Ihr Installationsort*\rage\mp\base\" <br> 
+<br> 
+<strong>Legende der Werte</strong> <br>
+DNA sehr hoch = beste Qualität <br> 
+DNA hoch = gute Qualität <br> 
+Standard = Standard RAGE-Einstellungen <br> 
+DNA niedrig = unter den standardmäßigen RAGE-Einstellungen <br> 
+DNA sehr niedrig = sehr niedrige Einstellungen für Systeme mit niedriger Spezifizierung <br> 
+"DNA enhanced" spezifische Ein- und Ausschalteinstellungen <br> 
+			</p>
+          <p id="prepare_cfg_btn_en"><a class="btn btn-primary btn-lg" href="#starconfig" role="button">Prepare CFG »</a></p>
+		  <p id="prepare_cfg_btn_de" style="display:none;"><a class="btn btn-primary btn-lg" href="#starconfig" role="button">Bereiten Sie CFG vor »</a></p>
+        </div>
+		<hr>
+      </div>
+
+<!-- CFG Maker 2018 - BETWEEN -->
+</div> 
+
+
+<div class="container" id="starconfig">
+<form class="needs-validation" id="form" novalidate="">
+<br><br><br>
+<h2>Console and intro skip</h2>
+<div class="form-row">
+<input id="Hidden_Consoleandintroskip" type="hidden" name="echo console and intro skip active" class="form-control">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom01">allow toggling console with the tilde key</label> 
+		<select name="com_allowconsole" class="form-control" id="validationCustom01" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">Yes</option>
+			<option value="0">No</option>
+		</select>
+		<small id="validationCustom01_HelpBlock" class="form-text text-muted">
+			enables the console with the ~ key
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+<div class="form-row">		
+    <div class="col-md-4 mb-3">
+		<label for="validationCustom02">skips the intro video</label>
+		<select name="com_skipIntroVideo" class="form-control" id="validationCustom02" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">Yes</option>
+			<option value="0">No</option>
+		</select>
+		<small id="validationCustom02_HelpBlock" class="form-text text-muted">
+			allows for the intro movie not to play so you can start the game faster
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+    </div>
+</div>
+
+<h2>Render Settings</h2>
+<div class="form-row bd-callout bd-callout-info">
+<input id="Hidden_RenderSettings" type="hidden" name="echo Render Settings active" class="form-control">			
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom03">Dimensions of the shadow buffer image</label>
+		<select name="r_sb_imageSize" class="form-control" id="validationCustom03" placeholder="768" value="768" required="">
+			<option value="768" selected="selected">768 (default)</option>
+			<option value="2048">2048 (DNA very high)</option>
+			<option value="1024">1024 (DNA high)</option>
+			<option value="512">512 (DNA low)</option>
+			<option value="256">256 (DNA very low)</option>
+		</select>
+		<small id="validationCustom03_HelpBlock" class="form-text text-muted">
+			the higher this value the better the shadows will look a higher value will degrade FPS
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom09">maximum dim-shadow resolution </label>
+		<select name="r_dimShadowResolution" class="form-control" id="validationCustom09" placeholder="768" value="768" required="">
+			<option value="768" selected="selected">768 (default)</option>
+			<option value="2048">2048 (DNA very high)</option>
+			<option value="1024">1024 (DNA high)</option>
+			<option value="512">512 (DNA low)</option>
+			<option value="256">256 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom09_HelpBlock" class="form-text text-muted">
+			the higher this value the better the shadows will look a higher value
+ will degrade FPS (set to same as "Dimensions of the shadow buffer 
+image")
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+	
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom04">Use the double-shadow private lighting</label>
+		<select name="r_useNewPrivateLighting" class="form-control" id="validationCustom04" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">ON (DNA Enhanced)</option>
+			<option value="0">OFF (default)</option>
+		</select>
+		<small id="validationCustom04_HelpBlock" class="form-text text-muted">
+			needs testing but should give better lighting
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom05">Use hardware textures instead of virtual textures for implicit gui images</label>
+		<select name="r_useHardwareTextures" class="form-control" id="validationCustom05" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">ON (DNA enhanced)</option>
+			<option value="0">OFF (default)</option>
+		</select>
+		<small id="validationCustom05_HelpBlock" class="form-text text-muted">
+			allows the GFX card to directly render the GUI images without the Virtual texture function.
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom06">run the renderer in a separate thread</label>
+		<select name="r_useSMP" class="form-control" id="validationCustom06" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">ON (DNA enhanced)</option>
+			<option value="0">OFF (default)</option>
+		</select>	
+		<small id="validationCustom06_HelpBlock" class="form-text text-muted">
+			run the render engine in a separate thread, should boost FPS
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom07">This Value is added to the true combined light z value to prevent long stretched shadows</label>
+		<select name="r_dimShadowHeightTweak" class="form-control" id="validationCustom07" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (DNA very high)</option>
+			<option value="0.95">0.9 (DNA high)</option>
+			<option value="0.9">0.9 (default)</option>
+			<option value="0.6">0.6 (DNA low)</option>
+			<option value="0.4">0.4 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom07_HelpBlock" class="form-text text-muted">
+			True shadows, if set to 0, any other setting will cut of the shadow at a certain percentage
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>		
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom08">Force high quality shadows</label>
+		<select name="r_dimShadowForceHighQuality" class="form-control" id="validationCustom08" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">1 (DNA very high)</option>
+			<option value="0">0 (default)</option>
+			<option value="-1">-1 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom08_HelpBlock" class="form-text text-muted">
+			this will force the shadows to high quality, this will degrade the FPS
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom10">Allow dim-shadows on breakables</label>
+		<select name="r_noBreakableShadows" class="form-control" id="validationCustom10" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">OFF (default)</option>
+			<option value="1">ON (DNA very low)</option>
+		</select>	
+		<small id="validationCustom10_HelpBlock" class="form-text text-muted">
+			set this to 1 if you do not want to cast shadows on breakable objects
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<h2>Game Settings</h2>
+<div class="form-row">	
+<input id="Hidden_GameSettings" type="hidden" name="echo Game Settings active" class="form-control">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom11">enables shadow of player model (!not working at the moment!)</label>
+		<select name="g_showPlayerShadow" class="form-control" id="validationCustom11" placeholder="0" value="0" required="">
+			<option value="1" selected="selected">ON (DNA very high)</option>
+			<option value="0">OFF (default)</option>
+		</select>	
+		<small id="validationCustom11_HelpBlock" class="form-text text-muted">
+			this should enable the player shadow but does not seem to work at this moment
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom12">Camera Field Of View (FOV)</label>
+		<select name="g_fov" class="form-control" id="validationCustom12" placeholder="80" value="80" required="">
+			<option value="80" selected="selected">80 - default</option>
+			<option value="85">85</option>
+			<option value="90">90</option>
+			<option value="95">95</option>
+			<option value="100">100</option>
+			<option value="105">105</option>
+			<option value="110">110</option>
+			<option value="115">115</option>
+			<option value="120">120</option>
+			<option value="125">125</option>
+			<option value="130">130</option>
+		</select>	
+		<small id="validationCustom12_HelpBlock" class="form-text text-muted">
+			Adjust the viewing field of the player/camera
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom13">Reactivate gibs when mover is activated, else gibs will be immediately removed</label>
+		<select name="g_reactivateGibsForMover" class="form-control" id="validationCustom13" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">OFF (default)</option>
+			<option value="1">ON (DNA enhanced)</option>
+		</select>	
+		<small id="validationCustom13_HelpBlock" class="form-text text-muted">
+			Should allow for body parts to stay movable on screen longer?
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom14">show blood splats, sprays and gibs</label>
+		<select name="g_bloodEffects" class="form-control" id="validationCustom14" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">ON (default)</option>
+			<option value="0">OFF (DNA very low)</option>
+		</select>	
+		<small id="validationCustom14_HelpBlock" class="form-text text-muted">
+			needs no explanation
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom15">disable all the aim assist code (Killburst, Zooming, Shooting)</label>
+		<select name="g_AimAssist_Disable_All" class="form-control" id="validationCustom15" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">OFF (default)</option>
+			<option value="1">ON (DNA Enhanced)</option>
+		</select>	
+		<small id="validationCustom15_HelpBlock" class="form-text text-muted">
+			needs no explanation / real aim needed now
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<h2>Virtual Texture Settings nVidia specific</h2>
+<div class="form-row">
+<input id="Hidden_VirtualTextureSettingsnVidiaspecific" type="hidden" name="echo Virtual Texture nVidia Settings active" class="form-control">		
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom16">toggles RLE (Run-length encoding) support</label>
+		<select name="vt_cudaRLE" class="form-control" id="validationCustom16" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">ON (default)</option>
+			<option value="0">OFF</option>
+		</select>	
+		<small id="validationCustom16_HelpBlock" class="form-text text-muted">
+			should help improve performance on current generation nVidia hardware (500 series)
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom17">budget in ms for CUDA transcoding (lower better/high end)</label>
+		<select name="vt_cudaBudget" class="form-control" id="validationCustom17" placeholder="10" value="10" required="">
+			<option value="10" selected="selected">10ms (DNA very high)</option>
+			<option value="12">12ms (DNA high)</option>
+			<option value="14">14ms (default)</option>
+			<option value="20">20ms (DNA low)</option>
+			<option value="24">24ms (DNA very low)</option>
+		</select>	
+		<small id="validationCustom17_HelpBlock" class="form-text text-muted">
+			should help improve performance on current generation nVidia hardware (500 series)
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom18">controls Cuda texture transcoding</label>
+		<select name="vt_useCudaTranscode" class="form-control" id="validationCustom18" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (default)</option>
+			<option value="1">1 (smart)</option>
+			<option value="2">2 (force on)</option>
+		</select>	
+		<small id="validationCustom18_HelpBlock" class="form-text text-muted">
+			allows the use of CUDA transcoding to help with the Virtual texture streaming engine
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<h2>Virtual Texture Settings Global</h2>
+<div class="form-row bd-callout bd-callout-danger">
+<input id="Hidden_VirtualTextureSettingsGlobal" type="hidden" name="echo Virtual Texture Settings Global active" class="form-control">			
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom19">Virtual texture preloading (should always be enabled)</label>
+		<select name="vt_nopreload" class="form-control" id="validationCustom19" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">Forced on</option>
+		</select>	
+		<small id="validationCustom19_HelpBlock" class="form-text text-muted">
+			make sure the Virtual Textures get preloaded
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom20">minimum mip level installed on the hard disk</label>
+		<select name="vt_minMipLevelInstalled" class="form-control" id="validationCustom20" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (default)</option>
+			<option value="2">2 - DNA</option>
+			<option value="4">4 - DNA</option>
+			<option value="6">6 - DNA</option>
+			<option value="8">8 - DNA</option>
+			<option value="10">10 - DNA</option>
+			<option value="12">12 - DNA</option>
+			<option value="14">14 - DNA</option>
+			<option value="16">16 - DNA</option>
+		</select>	
+		<small id="validationCustom20_HelpBlock" class="form-text text-muted">
+			the lower the value the better the textures will look from a greater distance
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row bd-callout bd-callout-info">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom21">Use uncompressed vmtr data</label>
+		<select name="vt_uncompressedVmtr" class="form-control" id="validationCustom21" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">ON (DNA very high)</option>
+			<option value="0">OFF (default)</option>
+		</select>	
+		<small id="validationCustom21_HelpBlock" class="form-text text-muted">
+			uncompressed Virtual Texture date should look better at the cost of FPS
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom22">force everything to high quality</label>
+		<select name="image_useCompression" class="form-control" id="validationCustom22" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">ON (DNA very high)</option>
+			<option value="1">OFF (default)</option>
+		</select>	
+		<small id="validationCustom22_HelpBlock" class="form-text text-muted">
+			should enhance the GFX of image quality in expense of lower FPS (set to same as "Use uncompressed vmtr data")
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>		
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom23">maximum number of transcoded pages per frame</label>
+		<select name="vt_maxPPF" class="form-control" id="validationCustom23" placeholder="16" value="16" required="">
+			<option value="16" selected="selected">16 - quad core</option>
+			<option value="64">64 - eight core</option>
+			<option value="32">32 - six core</option>
+			<option value="8">8 - dual core</option>
+			<option value="4">4 - single core</option>
+		</select>	
+		<small id="validationCustom23_HelpBlock" class="form-text text-muted">
+			GPU Transcoding
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row bd-callout bd-callout-info">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom24">Floating point max aniso for physical textures</label>
+		<select name="vt_maxaniso" class="form-control" id="validationCustom24" placeholder="4" value="4" required="">
+			<option value="4" selected="selected">4x (DNA very high)</option>
+			<option value="4">4x (DNA high)</option>
+			<option value="2">2x (default)</option>
+			<option value="1">1x (DNA low)</option>
+			<option value="0">0x (DNA very low)</option>
+		</select>	
+		<small id="validationCustom24_HelpBlock" class="form-text text-muted">
+			Virtual texture Anisotropic filtering (AF) only allows for 4x at this point without breaking the textures
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom25">set the maximum texture anisotropy if available</label>
+		<select name="image_anisotropy" class="form-control" id="validationCustom25" placeholder="4" value="4" required="">
+			<option value="4" selected="selected">4x (DNA very high)</option>
+			<option value="4">4x (DNA high)</option>
+			<option value="2">2x (default)</option>
+			<option value="1">1x (DNA low)</option>
+			<option value="0">0x (DNA very low)</option>
+		</select>	
+		<small id="validationCustom25_HelpBlock" class="form-text text-muted">
+			Virtual texture Anisotropic filtering (AF) only allows for 4x at this point without breaking the textures
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom26">number of anti-aliasing samples (0= no multi-sampled FBO)</label>
+		<select name="r_multiSamples" class="form-control" id="validationCustom26" placeholder="16" value="16" required="">
+			<option value="16" selected="selected">16x (DNA very high)</option>
+			<option value="8">8x (DNA high)</option>
+			<option value="0">0x (default)</option>
+			<option value="4">4x (DNA low)</option>
+			<option value="2">2x (DNA very low)</option>
+		</select>	
+		<small id="validationCustom26_HelpBlock" class="form-text text-muted">
+			Anti-Aliasing should give better IQ in expense of FPS
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>	
+
+<div class="form-row bd-callout bd-callout-info">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom27">Set the finest mip that can be accessed</label>
+		<select name="vt_minlod" class="form-control" id="validationCustom27" placeholder="-2" value="-2" required="">
+			<option value="-2" selected="selected">-2 (DNA very high)</option>
+			<option value="-1">-1 (DNA high)</option>
+			<option value="0">0 (default)</option>
+			<option value="1">1 (DNA low)</option>
+			<option value="3">3 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom27_HelpBlock" class="form-text text-muted">
+			Finest mip-map quality set to a lower amount (minus) for more crisp images
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom28">Floating point bias for drawing virtual textures</label>
+		<select name="vt_lodBias" class="form-control" id="validationCustom28" placeholder="-2" value="-2" required="">
+			<option value="-2" selected="selected">-2 (DNA very high)</option>
+			<option value="-1">-1 (DNA high)</option>
+			<option value="0">0 (default)</option>
+			<option value="1">1 (DNA low)</option>
+			<option value="3">3 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom28_HelpBlock" class="form-text text-muted">
+			Finest mip-map quality set to a lower amount (minus) for more crisp 
+images / (set to same as "Set the finest mip that can be accessed")
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>	
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom29">change lod bias on mipmapped images</label>
+		<select name="image_lodbias" class="form-control" id="validationCustom29" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (default)</option>
+			<option value="-2">-2 (DNA very high)</option>
+			<option value="-1">-1 (DNA high)</option>
+			<option value="1">1 (DNA low)</option>
+			<option value="3">3 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom29_HelpBlock" class="form-text text-muted">
+			Finest mip-map quality set to a lower amount (minus) for more crisp images
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom30">Compression method for vmtr pages</label>
+		<select name="vt_vmtrcompression" class="form-control" id="validationCustom30" placeholder="none" value="none" required="">
+			<option value="none" selected="selected">none (DNA very high)</option>
+			<option value="HDP">HDP (DNA high)</option>
+			<option value="DCT">DCT (default)</option>
+			<option value="DXT">DXT (DNA very low)</option>
+		</select>	
+		<small id="validationCustom30_HelpBlock" class="form-text text-muted">
+			Compression for the Virtual Textures, none will give the best IQ
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom31">Compression method for generated pages</label>
+		<select name="mt_genCompression" class="form-control" id="validationCustom31" placeholder="none" value="none" required="">
+			<option value="none" selected="selected">none (DNA very high)</option>
+			<option value="HDP">HDP (DNA high)</option>
+			<option value="DCT">DCT (default)</option>
+			<option value="DXT">DXT (DNA very low)</option>
+		</select>	
+		<small id="validationCustom31_HelpBlock" class="form-text text-muted">
+			Compression for the Virtual Textures Material files, none will give the best IQ
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom32">DCT Chroma quality 0 to 100</label>
+		<select name="vt_qualityDCTChroma" class="form-control" id="validationCustom32" placeholder="100" value="100" required="">
+			<option value="100" selected="selected">100 (DNA very high)</option>
+			<option value="90">90 (DNA high)</option>
+			<option value="80">80 (default)</option>
+			<option value="40">40 (DNA low)</option>
+			<option value="20">20 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom32_HelpBlock" class="form-text text-muted">
+			A higher value will make the effect more obvious
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom33">DCT Luma quality 0 to 100</label>
+		<select name="vt_qualityDCTLuma" class="form-control" id="validationCustom33" placeholder="100" value="100" required="">
+			<option value="100" selected="selected">100 (DNA very high)</option>
+			<option value="90">90 (DNA high)</option>
+			<option value="80">80 (default)</option>
+			<option value="40">40 (DNA low)</option>
+			<option value="20">20 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom33_HelpBlock" class="form-text text-muted">
+			A higher value will make the effect more obvious
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom34">DCT Normal quality 0 to 100</label>
+		<select name="vt_qualityDCTNormal" class="form-control" id="validationCustom34" placeholder="100" value="100" required="">
+			<option value="100" selected="selected">100 (DNA very high)</option>
+			<option value="90">90 (DNA high)</option>
+			<option value="80">80 (default)</option>
+			<option value="40">40 (DNA low)</option>
+			<option value="20">20 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom34_HelpBlock" class="form-text text-muted">
+			A higher value will make the effect more obvious
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom35">DCT Power quality 0 to 100</label>
+		<select name="vt_qualityDCTPower" class="form-control" id="validationCustom35" placeholder="100" value="100" required="">
+			<option value="100" selected="selected">100 (DNA very high)</option>
+			<option value="90">90 (DNA high)</option>
+			<option value="80">80 (default)</option>
+			<option value="40">40 (DNA low)</option>
+			<option value="20">20 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom35_HelpBlock" class="form-text text-muted">
+			A higher value will make the effect more obvious
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom36">DCT Specular quality 0 to 100</label>
+		<select name="vt_qualityDCTSpecular" class="form-control" id="validationCustom36" placeholder="100" value="100" required="">
+			<option value="100" selected="selected">100 (DNA very high)</option>
+			<option value="90">90 (DNA high)</option>
+			<option value="80">80 (default)</option>
+			<option value="40">40 (DNA low)</option>
+			<option value="20">20 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom36_HelpBlock" class="form-text text-muted">
+			A higher value will make the effect more obvious
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom37">force lossless HD-photo compression</label>
+		<select name="vt_qualityHDPLossless" class="form-control" id="validationCustom37" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">1 (DNA very high)</option>
+			<option value="0">0 (default)</option>
+		</select>	
+		<small id="validationCustom37_HelpBlock" class="form-text text-muted">
+			loss less compression, option will not have effect if NONE is chosen for the compression options above
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom38">HDP Diffuse - amount of quantization to apply in the range 0 to 255</label>
+		<select name="vt_qualityHDPDiffuse" class="form-control" id="validationCustom38" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (DNA very high)</option>
+			<option value="10">10 (DNA high)</option>
+			<option value="30">30 (default)</option>
+			<option value="125">125 (DNA low)</option>
+			<option value="255">255 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom38_HelpBlock" class="form-text text-muted">
+			option will not have effect if NONE is chosen for the compression options above
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom39">HDP Normal - amount of quantization to apply in the range 0 to 255</label>
+		<select name="vt_qualityHDPNormal" class="form-control" id="validationCustom39" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (DNA very high)</option>
+			<option value="10">10 (DNA high)</option>
+			<option value="30">30 (default)</option>
+			<option value="125">125 (DNA low)</option>
+			<option value="255">255 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom39_HelpBlock" class="form-text text-muted">
+			option will not have effect if NONE is chosen for the compression options above
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom39">HDP Power - amount of quantization to apply in the range 0 to 255</label>
+		<select name="vt_qualityHDPPower" class="form-control" id="validationCustom39" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (DNA very high)</option>
+			<option value="15">15 (DNA high)</option>
+			<option value="40">40 (default)</option>
+			<option value="125">125 (DNA low)</option>
+			<option value="255">255 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom39_HelpBlock" class="form-text text-muted">
+			option will not have effect if NONE is chosen for the compression options above
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom40">HDP Specular - amount of quantization to apply in the range 0 to 255</label>
+		<select name="vt_qualityHDPSpecular" class="form-control" id="validationCustom40" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (DNA very high)</option>
+			<option value="10">10 (DNA high)</option>
+			<option value="30">30 (default)</option>
+			<option value="125">125 (DNA low)</option>
+			<option value="255">255 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom40_HelpBlock" class="form-text text-muted">
+			option will not have effect if NONE is chosen for the compression options above
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom41">Dimensions of the physical page images</label>
+		<select name="vt_pageimagesizeuniquediffuseonly2" class="form-control" id="validationCustom41" placeholder="8192" value="8192" required="">
+			<option value="8192" selected="selected">8192x8192 (DNA very high)</option>
+			<option value="6144">6144x6144 (DNA high)</option>
+			<option value="4096">4096x4096 (default)</option>
+			<option value="2048">2048x2048 (DNA low)</option>
+			<option value="1024">1024x1024 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom41_HelpBlock" class="form-text text-muted">
+			the virtual texture quality the higher the better the textures will look
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom42">Dimensions of the physical page images</label>
+		<select name="vt_pageimagesizeuniquediffuseonly" class="form-control" id="validationCustom42" placeholder="8192" value="8192" required="">
+			<option value="8192" selected="selected">8192x8192 (DNA very high)</option>
+			<option value="6144">6144x6144 (DNA high)</option>
+			<option value="4096">4096x4096 (default)</option>
+			<option value="2048">2048x2048 (DNA low)</option>
+			<option value="1024">1024x1024 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom42_HelpBlock" class="form-text text-muted">
+			the virtual texture quality the higher the better the textures will look
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom43">Dimensions of the physical page images</label>
+		<select name="vt_pageimagesizeunique" class="form-control" id="validationCustom43" placeholder="8192" value="8192" required="">
+			<option value="8192" selected="selected">8192x8192 (DNA very high)</option>
+			<option value="6144">6144x6144 (DNA high)</option>
+			<option value="4096">4096x4096 (default)</option>
+			<option value="2048">2048x2048 (DNA low)</option>
+			<option value="1024">1024x1024 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom43_HelpBlock" class="form-text text-muted">
+			the virtual texture quality the higher the better the textures will look
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom44">Dimensions of the physical page images</label>
+		<select name="vt_pageimagesizevmtr" class="form-control" id="validationCustom44" placeholder="8192" value="8192" required="">
+			<option value="8192" selected="selected">8192x8192 (DNA very high)</option>
+			<option value="6144">6144x6144 (DNA high)</option>
+			<option value="4096">4096x4096 (default)</option>
+			<option value="2048">2048x2048 (DNA low)</option>
+			<option value="1024">1024x1024 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom44_HelpBlock" class="form-text text-muted">
+			the virtual texture quality the higher the better the textures will look
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom45">Vsync Mode / wglSwapInterval</label>
+		<select name="r_swapInterval" class="form-control" id="validationCustom45" placeholder="-1" value="-1" required="">
+			<option value="-1" selected="selected">-1 (default / swap-tear 60Hz)</option>
+			<option value="0">0 (off)</option>
+			<option value="1">1 (vsync 60Hz)</option>
+		</select>	
+		<small id="validationCustom45_HelpBlock" class="form-text text-muted">
+			Vsync mode turn off for uncapped FPS
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<h2>Sound Settings</h2>
+<div class="form-row">
+<input id="Hidden_SoundSettings" type="hidden" name="echo SoundSettings active" class="form-control">		
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom46">enable reverb</label>
+		<select name="s_reverb" class="form-control" id="validationCustom46" placeholder="1" value="1" required="">
+			<option value="1" selected="selected">1 (default)</option>
+			<option value="0">0 (DNA very low)</option>
+		</select>	
+		<small id="validationCustom46_HelpBlock" class="form-text text-muted">
+			Enable or Disable the Reverb simulated effects (echo / reflections from walls or objects)
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom47">distance over which to fade occlusion</label>
+		<select name="s_occlusionDistance" class="form-control" id="validationCustom47" placeholder="768" value="768" required="">
+			<option value="768" selected="selected">768 (default)</option>
+			<option value="256">256 (DNA very low)</option>
+			<option value="512">512 (DNA low)</option>
+			<option value="1024">1024 (DNA high)</option>
+			<option value="2048">2048 (DNA very high)</option>
+		</select>	
+		<small id="validationCustom47_HelpBlock" class="form-text text-muted">
+			Loudness of low pitched sounds distance fade out
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom48">Max number of samples loaded per shader</label>
+		<select name="s_maxSamples" class="form-control" id="validationCustom48" placeholder="5" value="5" required="">
+			<option value="5" selected="selected">5 (default)</option>
+			<option value="3">3 (DNA very low)</option>
+			<option value="4">4 (DNA low)</option>
+			<option value="8">8 (DNA high)</option>
+			<option value="10">10 (DNA very high)</option>
+		</select>	
+		<small id="validationCustom48_HelpBlock" class="form-text text-muted">
+			the amount of sound samples loaded for shader interaction?
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom49">Amount of Sound Emitter Channels</label>
+		<select name="s_maxEmitterChannels" class="form-control" id="validationCustom49" placeholder="24" value="24" required="">
+			<option value="24" selected="selected">24 (default)</option>
+			<option value="8">8 (DNA very low)</option>
+			<option value="16">16 (DNA low)</option>
+			<option value="32">32 (DNA high)</option>
+			<option value="64">64 (DNA very high)</option>
+		</select>	
+		<small id="validationCustom49_HelpBlock" class="form-text text-muted">
+			Can be set lower than the absolute max of MAX_HARDWARE_VOICES 
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<h2>Player movement settings</h2>
+<div class="form-row">
+<input id="Hidden_Playermovementsettings" type="hidden" name="echo Player movement settings active" class="form-control">		
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom50">Toggle sprint or not</label>
+		<select name="pm_togglesprint" class="form-control" id="validationCustom50" placeholder="0" value="0" required="">
+			<option value="0" selected="selected">0 (default)</option>
+			<option value="1">1 (DNA Enhanced)</option>
+		</select>	
+		<small id="validationCustom50_HelpBlock" class="form-text text-muted">
+			To use or not to use toggle sprint for PC
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom51">speed the player can move while sprinting</label>
+		<select name="pm_sprintspeed" class="form-control" id="validationCustom51" placeholder="450" value="450" required="">
+			<option value="450" selected="selected">450 (default)</option>
+			<option value="225">225 (slower)</option>
+			<option value="675">675 (faster)</option>
+		</select>	
+		<small id="validationCustom51_HelpBlock" class="form-text text-muted">
+			how fast can the player sprint when holding the shift/run key
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom52">speed the player can move while running</label>
+		<select name="pm_runspeed" class="form-control" id="validationCustom52" placeholder="280" value="280" required="">
+			<option value="280" selected="selected">280 (default)</option>
+			<option value="140">140 (slower)</option>
+			<option value="420">420 (faster)</option>
+		</select>	
+		<small id="validationCustom52_HelpBlock" class="form-text text-muted">
+			how fast can the player run
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom53">speed the player can move while walking</label>
+		<select name="pm_walkspeed" class="form-control" id="validationCustom53" placeholder="160" value="160" required="">
+			<option value="160" selected="selected">160 (default)</option>
+			<option value="80">80 (slower)</option>
+			<option value="240">240 (faster)</option>
+		</select>	
+		<small id="validationCustom53_HelpBlock" class="form-text text-muted">
+			speed the player can move while walking
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+<div class="form-row">	
+	<div class="col-md-4 mb-3">
+		<label for="validationCustom54">speed the player can move while crouched</label>
+		<select name="pm_crouchspeed" class="form-control" id="validationCustom54" placeholder="160" value="160" required="">
+			<option value="160" selected="selected">160 (default)</option>
+			<option value="80">80 (slower)</option>
+			<option value="240">240 (faster)</option>
+		</select>	
+		<small id="validationCustom54_HelpBlock" class="form-text text-muted">
+			how fast can the player move while in crouched position
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+
+ <div class="form-row bd-callout bd-callout-danger">
+	<div class="col-md-4 mb-3">
+	<input id="Hidden_DontSkip" type="hidden" name="echo make sure the engine does not skip any settings" class="form-control">	
+		<label for="validation_nochange">!nochange the values below are forced and can't be changed</label>
+			<textarea class="form-control" id="validation_nochange" rows="10" cols="100%" readonly="readonly">af_skipAirFriction "0" !nochange
+af_skipFriction "0" !nochange
+af_skipLimits "0" !nochange
+af_skipSelfCollision "0" !nochange
+com_skipDiscSwapStateManager "0" !nochange
+com_skipGameRenderView "0" !nochange
+com_skipInputRouting "0" !nochange
+com_skipIntroVideo "0" !nochange
+com_skipSignInManager "0" !nochange
+face_skipBlink "0" !nochange
+face_skipGestures "0" !nochange
+face_skipHead "0" !nochange
+face_skipLidDeform "0" !nochange
+face_skipLipsync "0" !nochange
+face_skipMood "0" !nochange
+face_skipProcedural "0" !nochange
+g_skipBombTimerFailTarget "0" !nochange
+g_skipBreakableParticles "0" !nochange
+g_skipCloth "0" !nochange
+g_skipFXManager "0" !nochange
+g_skipViewEffects "0" !nochange
+g_skipWaterSim "0" !nochange
+g_weaponSkipSound "0" !nochange
+gc_skipFiction "0" !nochange
+pm_skipAnimation "0" !nochange
+r_skipAugment "0" !nochange
+r_skipAutosprites "0" !nochange
+r_skipBaseSurfaces "0" !nochange
+r_skipBeams "0" !nochange
+r_skipBlendedSurfaces "0" !nochange
+r_skipBlendLights "0" !nochange
+r_skipCloth "0" !nochange
+r_skipCommits "0" !nochange
+r_skipDecals "0" !nochange
+r_skipDetailModels "0" !nochange
+r_skipDetailTris "0" !nochange
+r_skipDimShadows "0" !nochange
+r_skipDistortionSurfaces "0" !nochange
+r_skipDynamic "0" !nochange
+r_skipDynamicLighting "0" !nochange
+r_skipEffects "0" !nochange
+r_skipEmissiveGlare "0" !nochange
+r_skipFeedback "0" !nochange
+r_skipFlares "0" !nochange
+r_skipFoliage "0" !nochange
+r_skipGeneratedFileCheck "0" !nochange
+r_skipGlare "0" !nochange
+r_skipGuis "0" !nochange
+r_skipLightCPUCulling "0" !nochange
+r_skipLightGPUCulling "0" !nochange
+r_skipLights "0" !nochange
+r_skipMergeMeshes "0" !nochange
+r_skipModelCPUCulling "0" !nochange
+r_skipModelGPUCulling "0" !nochange
+r_skipModelRangeCulling "0" !nochange
+r_skipModels "0" !nochange
+r_skipNodeCPUCulling "0" !nochange
+r_skipNodeGPUCulling "0" !nochange
+r_skipOcclusionBaseModel "0" !nochange
+r_skipParticles "0" !nochange
+r_skipSlowLights "0" !nochange
+r_skipStripDeadCode "0" !nochange
+r_skipSuppress "0" !nochange
+r_skipSurfaceCPUCulling "0" !nochange
+r_skipTransparencySort "0" !nochange
+r_skipUpdateInView "0" !nochange
+r_skipViewParms "0" !nochange
+r_skipVmtrs "0" !nochange
+r_skipWaterSurfaces "0" !nochange
+r_skipWorld "0" !nochange
+r_skipZCullReconstruct "0" !nochange
+r_multiSamples "16" !nochange
+r_shadows "1" !nochange
+s_useCompression "1" !nochange
+md6_generateDamageTextures "1" !nochange
+r_lazyBindParms "0" !nochange
+r_lazyBindPrograms "0" !nochange
+r_lazyBindTextures "0" !nochange
+vt_restart  !nochange
+r_forceVmtrReload "1"
+</textarea>
+		<small id="validation_nochange_HelpBlock" class="form-text text-muted">
+			!nochange values are forced/neede values. the !nochance sign will not show in your output.
+		</small>
+		<div class="valid-feedback">
+			Looks good!
+		</div>
+		<div class="invalid-feedback">
+			Error !
+        </div>
+	</div>
+</div>
+<!--  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div> -->
+  <button class="btn btn-primary" type="submit" onclick="showInput(event);">Submit form</button>
+</form>
+<br>
+<div id="display" style="height:100%; width:100%;"></div>
+
+<script>
+  function showInput(e) {
+    e.preventDefault();
+	var data = [];
+    var output_info = document.getElementById("form");
+    var display = document.getElementById("display");
+	display.innerHTML = "";	
+		replaceNewlinesClick.call(elementc);
+		replaceNewlinesClick.call(elementc);
+    var data = output_info.querySelectorAll("input:not([type=submit]), select");
+	var datalocked = output_info.querySelectorAll("input:not([type=submit]), textarea");
+	display.innerHTML += "<strong>Copy & Paste the output below</strong><br /><br />";
+	// extra info
+	display.innerHTML += "echo Do Not Argue - CFG Maker" + "<br />";
+	display.innerHTML += "echo RAGE - CFG version: 1.4 / 08-04-2018@20:32" + "<br />";
+	display.innerHTML += "echo https://www.donotargue.com/cfgmakers.html" + "<br />";
+    for (var i = 0; i < data.length; i++) {
+      display.innerHTML +=data[i].name + " " + '"' + data[i].value + '"' + "<br />";
+    }
+///	for (var ix = 0; ix < datalocked.length; ix++) {
+ //     display.innerHTML +=datalocked[ix].value + "<br />";
+ //   }
+ 
+	display.innerHTML +=document.getElementById("validation_nochange").value;
+//  output_info.querySelector("input[type=submit]").setAttribute("disabled", true);
+	replaceNewlines.call(element);
+	
+//	console.log(display);
+	display.innerHTML = display.innerHTML.replace(/""/g , '');
+//	console.log(display.innerHTML = display.innerHTML.replace(/""/g , ''));
+//	console.log(display);
+  }
+</script>	
+
+
+<script>
+// self executing function here
+// var display = document.getElementById("display");
+var element = document.getElementById('validation_nochange');
+function replaceNewlines(e) {
+    this.value = this.value.replace(/<br\s*\/?>/g, '!nochange');
+//	display.innerHTML = display.innerHTML.replace(/""/g , '');
+}
+replaceNewlines.call(element);	
+</script>
+
+
+<script>
+// self executing function here
+// var display = document.getElementById("display");
+var elementc = document.getElementById('validation_nochange');
+function replaceNewlinesClick(e) {
+    this.value = this.value.replace(/!nochange/g, '<br />');
+//	display.innerHTML = display.innerHTML.replace(/""/g , '');
+}
+</script>
+
+<hr>
+
+</div> 
+</main>
+
+<script>
+/* First CSS File */
+var giftofspeed = document.createElement('link');
+giftofspeed.rel = 'stylesheet';
+giftofspeed.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+// giftofspeed.type = 'text/css';
+giftofspeed.crossorigin = 'anonymous';
+var godefer = document.getElementsByTagName('link')[0];
+godefer.parentNode.insertBefore(giftofspeed, godefer);
+
+/* Second CSS File */
+var giftofspeed2 = document.createElement('link');
+giftofspeed2.rel = 'stylesheet';
+giftofspeed2.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+// giftofspeed2.type = 'text/css';
+giftofspeed.crossorigin = 'anonymous';
+var godefer2 = document.getElementsByTagName('link')[0];
+godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+</script>
+
+<script>
+var EnglishArr = [];
+var GermanArr = [];
+	// ENGLISH
+    var tagline_en = document.getElementById("tagline_en");
+	var learnmore_btn_en = document.getElementById("learnmore_btn_en");
+	var wiki_game_title_en = document.getElementById("wiki_game_title_en");
+	var wiki_quote_en = document.getElementById("wiki_quote_en");
+	var how_to_use_btn_en = document.getElementById("how_to_use_btn_en");
+	var read_this_first_en = document.getElementById("read_this_first_en");
+	var how_to_use_text_en = document.getElementById("how_to_use_text_en");
+	var prepare_cfg_btn_en = document.getElementById("prepare_cfg_btn_en");
+	
+	// GERMAN
+    var tagline_de = document.getElementById("tagline_de");
+	var learnmore_btn_de = document.getElementById("learnmore_btn_de");
+	var wiki_game_title_de = document.getElementById("wiki_game_title_de");
+	var wiki_quote_de = document.getElementById("wiki_quote_de");
+	var how_to_use_btn_de = document.getElementById("how_to_use_btn_de");
+	var read_this_first_de = document.getElementById("read_this_first_de");
+	var how_to_use_text_de = document.getElementById("how_to_use_text_de");
+	var prepare_cfg_btn_de = document.getElementById("prepare_cfg_btn_de");
+</script>
+
+<script>
+function myEN() {
+	tagline_en.style.display = "block";
+	learnmore_btn_en.style.display = "inline-block";
+	wiki_game_title_en.style.display = "block";
+	wiki_quote_en.style.display = "block";
+	how_to_use_btn_en.style.display = "inline-block";
+	read_this_first_en.style.display = "block";
+	how_to_use_text_en.style.display = "block";
+	prepare_cfg_btn_en.style.display = "inline-block";
+		// HIDE GERMAN
+		tagline_de.style.display = "none";
+		learnmore_btn_de.style.display = "none";
+		wiki_game_title_de.style.display = "none";
+		wiki_quote_de.style.display = "none";
+		how_to_use_btn_de.style.display = "none";
+		read_this_first_de.style.display = "none";
+		how_to_use_text_de.style.display = "none";
+		prepare_cfg_btn_de.style.display = "none";		
+}
+</script>
+
+<script>
+function myDE() {
+	tagline_de.style.display = "block";
+	learnmore_btn_de.style.display = "inline-block";
+	wiki_game_title_de.style.display = "block";
+	wiki_quote_de.style.display = "block";
+	how_to_use_btn_de.style.display = "inline-block";
+	read_this_first_de.style.display = "block";
+	how_to_use_text_de.style.display = "block";
+	prepare_cfg_btn_de.style.display = "inline-block";
+		// HIDE ENGLISH
+		tagline_en.style.display = "none";
+		learnmore_btn_en.style.display = "none";
+		wiki_game_title_en.style.display = "none";
+		wiki_quote_en.style.display = "none";
+		how_to_use_btn_en.style.display = "none";	
+		read_this_first_en.style.display = "none";
+		how_to_use_text_en.style.display = "none";
+		prepare_cfg_btn_en.style.display = "none";
+}
+</script>
+
+<noscript>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" >
+</noscript>		
+  
+</body></html>
